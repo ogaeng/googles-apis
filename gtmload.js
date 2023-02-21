@@ -1,0 +1,1 @@
+const gtmLoadFn=function(t){var a=t.pushState;t.pushState=function(n){return"function"==typeof t.onpushstate&&t.onpushstate({state:n}),dataLayer.push({event:"gtm.load"}),a.apply(t,arguments)}}(window.history);
